@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33962" started-at="2017-05-30T04:13:26Z" finished-at="2017-05-30T04:14:00Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="17319" started-at="2017-05-30T04:13:26Z" finished-at="2017-05-30T04:13:44Z">
+      <class name="Crossbrowser">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Crossbrowser@6d7b4f4c]" name="beforeClass" is-config="true" duration-ms="13897" started-at="2017-05-29T23:13:27Z" finished-at="2017-05-29T23:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome52x64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="opentest()[pri:0, instance:Crossbrowser@6d7b4f4c]" name="opentest" duration-ms="2839" started-at="2017-05-29T23:13:40Z" finished-at="2017-05-29T23:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opentest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Crossbrowser@6d7b4f4c]" name="afterClass" is-config="true" duration-ms="558" started-at="2017-05-29T23:13:43Z" finished-at="2017-05-29T23:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Crossbrowser -->
+    </test> <!-- ChromeTest -->
+    <test name="Chrome1Test" duration-ms="16605" started-at="2017-05-30T04:13:44Z" finished-at="2017-05-30T04:14:00Z">
+      <class name="Crossbrowser">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:Crossbrowser@2b9627bc]" name="beforeClass" is-config="true" duration-ms="13611" started-at="2017-05-29T23:13:44Z" finished-at="2017-05-29T23:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome58x64]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="opentest()[pri:0, instance:Crossbrowser@2b9627bc]" name="opentest" duration-ms="2226" started-at="2017-05-29T23:13:57Z" finished-at="2017-05-29T23:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opentest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Crossbrowser@2b9627bc]" name="afterClass" is-config="true" duration-ms="754" started-at="2017-05-29T23:14:00Z" finished-at="2017-05-29T23:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Crossbrowser -->
+    </test> <!-- Chrome1Test -->
+  </suite> <!-- Suite -->
+</testng-results>
